@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
-<style lang="CSS">
-.SCL_color_brown{fill:#7f4a00;stroke:#5e3201}
-.SCL_color_white{fill:#d0d0d0;stroke:#aaa}
-.SCL_color_black{fill:#707070;stroke:#505050}
+<svg width="720" height="720" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<style>
+.olive{
+ fill:#6d7500;
+ stroke:#555a00;
+}
+.brown{
+ fill:#7f4a00;
+ stroke:#5e3201;
+}
+.white{
+ fill:#d0d0d0;
+ stroke:#aaa;
+}
+.black{
+ fill:#707070;
+ stroke:#505050;
+}
 </style>
-<!--
-insert new shapes here
--->
-<circle class="sicalyme_color_brown" r="170" cx="360" cy="360"/>
-<circle class="sicalyme_color_white" r="110" cx="360" cy="360"/>
-<path class="sicalyme_color_black" d="M360 400c-22 0-40-18-40-40 0-22 18-40 40-40 22 0 40 18 40 40h40c0-44-36-80-80-80-44 0-80 36-80 80 0 44 36 80 80 80Z">
+<circle r="170" cx="360" cy="360" class="brown"/>
+<circle r="110" cx="360" cy="360" class="white"/>
+<path d="M360 400c-22 0-40-18-40-40 0-22 18-40 40-40 22 0 40 18 40 40h40c0-44-36-80-80-80-44 0-80 36-80 80 0 44 36 80 80 80Z" class="black">
 <animateTransform attributeName="transform" type="rotate" dur="4s" repeatCount="indefinite" values="-10 360 360;10 360 360;80 360 360;100 360 360;170 360 360;190 360 360;260 360 360;280 360 360;350 360 360"/>
 </path>
 </svg>
